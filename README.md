@@ -1,6 +1,4 @@
-﻿[![sites](qitas/Qi.png)](http://www.qitas.cn)
-
-# docker iot
+﻿# [docker iot](https://github.com/qitas/docker-iot) 
 
 ### 项目描述
 
@@ -10,19 +8,16 @@
 
 ## 组成
 
-####   LORA
+####  go
 
-LoraMAC
+基于go语言
 
-####  NB-IOT
+####  python
 
-MT2625 BC26
-
----
-## 说明
-
-2018-10-13: 创建该仓库
+基于python语言
 
 ---
+
 ## 为锻造最美之器
+
 [![sites](qitas/qitas.jpg)](http://www.qitas.cn)
