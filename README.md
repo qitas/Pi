@@ -1,23 +1,23 @@
-﻿# [docker iot](https://github.com/qitas/docker-iot) 
+﻿# [Pi](https://github.com/qitas/Pi) 
 
-### 项目描述
+#### qitas@qitas.cn
 
-接入边缘传感器云平台，包括LORA和NB-IOT
+## [描述](https://github.com/qitas/Pi/wiki) 
 
----
+## [组成](https://github.com/qitas/Pi)
 
-## 组成
+#### [cv4Pi](https://github.com/Qitas/cv4Pi)
 
-####  go
+#### [IoT4Pi](https://github.com/Qitas/IoT4Pi)
 
-基于go语言
+#### [sensors4Pi](https://github.com/Qitas/sensors4Pi)
 
-####  python
+#### [Linux4Pi](https://github.com/Qitas/Linux4Pi)
 
-基于python语言
+#### [web4Pi](https://github.com/Qitas/web4Pi)
 
----
 
-## 为锻造最美之器
+## 锻造最美之器
 
-[![sites](qitas/qitas.jpg)](http://www.qitas.cn)
+[![sites](qitas/qitas.png)](http://www.qitas.cn)
+
