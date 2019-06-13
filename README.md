@@ -4,14 +4,15 @@
 
 ## [描述](https://github.com/qitas/Pi/wiki) 
 
-Pi在本工程中主要指树莓派之类以派命名的单板计算机，包括以树莓派为主的[ARM cortex A](https://github.com/sochub/CA)芯片的控制板资源。
+Pi在本工程中主要指树莓派之类以派命名的单板计算机SBC(single board computer)，包括以树莓派为主的[ARM cortex A](https://github.com/sochub/CA)主芯片的单板计算设备。
 
-- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
-- [Win10 IOT](https://developer.microsoft.com/en-us/windows/iot)
+随着越来越多的平台开始支持单板计算设备，市场上也出现了越来越多的开源硬件产品，但综合生态因素，还是头部的 [Raspberry Pi](#Raspberry-Pi)拥有更多的资源支持，包括软件和硬件外设。
 
-Raspbian是树莓派官方Linux系统，也是各种开源资源优先适配的ARM Linux系统，更灵活方便使用树莓派离不开Raspbian的支持，虽然现在支持树莓派的各种系统资源愈发丰富。[Raspbian部署资源](https://github.com/Qitas/raspbian)
+除了树莓派之外，还被广泛认可支持的的Pi设备有：德州仪器[Beaglebone](#Beaglebone)，高通[DragonBoard](#DragonBoard)，英特尔[MinnowBoard](#MinnowBoard)
 
-## [关联项目](https://github.com/qitas/Pi)
+国产3 Pi： orange pi, banana pi, nano pi
+
+## [Pi应用工程](https://github.com/qitas/Pi)
 
 - [cv4Pi](https://github.com/Qitas/cv4Pi)
 - [IoT4Pi](https://github.com/Qitas/IoT4Pi)
@@ -21,8 +22,12 @@ Raspbian是树莓派官方Linux系统，也是各种开源资源优先适配的A
 - [camera4Pi](https://github.com/Qitas/camera4Pi)
 - [sensors4Pi](https://github.com/Qitas/sensors4Pi)
 
+## Raspberry Pi
 
-## 树莓派学习资源
+- [Raspbian自定义](https://github.com/Qitas/raspbian)
+- [Raspbian官方](https://www.raspberrypi.org/downloads/raspbian/)
+- [Ubuntu for Raspberry Pi](https://ubuntu.com/download/iot)
+- [Window IoT for Raspberry Pi](https://developer.microsoft.com/en-us/windows/iot)
 
 * [Raspberry Pi Bare Metal](https://github.com/fordp2002/ArmCopro/wiki/Raspberry-Pi-Bare-Metal) & [related link](https://microeletroniki.wordpress.com/)
 * [ChibiOS/RT on the Raspberry Pi](https://www.stevebate.net/chibios-rpi/GettingStarted.html)
@@ -63,6 +68,25 @@ Raspbian是树莓派官方Linux系统，也是各种开源资源优先适配的A
 * [Porting uCOSII to the raspberry pi A+/B+/2B](https://github.com/mopplayer/uCOSII_RPi)
 * [Bare-metal examples](https://github.com/mrvn/RaspberryPi-baremetal)
 * [Bare-metal lab](https://github.com/tzuCarlos/RaspberryPi)
+
+## Beaglebone
+
+* [BeagleBone Black I2C References](https://datko.net/2013/11/03/bbb_i2c/)
+* [Learning BeagleBone Python Programming](https://hub.packtpub.com/learning-beaglebone-python-programming/)
+* [Simple implementation of an OS for the BeagleBoard C4 with ARMv7 A8 processor.](https://github.com/Oxydation/MinionOS)
+* [Various projects that utilize low level hardware instructions to interface with leds, speaker output and joystick input.](https://github.com/travelln/beaglebone-projects)
+* [Windows Embedded Compact BSP for TI's Beaglebone](https://github.com/dvescovi1/WECBeagleBone)
+* [BBB-BareMetal](https://github.com/allexoll/BBB-BareMetal)- Works on the beaglebone black (bare metal)
+* [Running a Baremetal Beaglebone Black](https://www.twosixlabs.com/running-a-baremetal-beaglebone-black-part-1/) & [Part 2](https://www.twosixlabs.com/running-a-baremetal-beaglebone-black-part-2/)
+* [Bare Metal on the BeagleBone (Black and Green)](https://www.cs.sfu.ca/CourseCentral/433/bfraser/other/BareMetalGuide.pdf) & [link1](https://www.cs.sfu.ca/CourseCentral/433/bfraser/other/) + [Link2](https://www.cs.sfu.ca/CourseCentral/433/bfraser/weekly.html)
+* [A tutorial on bare-metal [OS] development on the Texas Instruments BeagleBoard.](https://wiki.osdev.org/ARM_Beagleboard)
+* [bare metal c project for beaglebone, ti sitara am335x](https://github.com/0xCA5A/kickstart/tree/master/beaglebone/bare_metal_hello_world)
+* [Bare Metal Applications on OSD335x using U-Boot](https://octavosystems.com/app_notes/bare-metal-on-osd335x-using-u-boot/#_Toc382081430)
+* [bbb-asm-demo](https://github.com/mvduin/bbb-asm-demo) - Extremely tiny baremetal application for BeagleBone Black
+* [Beaglebone - Getting started with JTAG and CCS](https://beagleboard.org/static/beaglebone/latest/Docs/ccs-jtag-simple.htm)
+* [BeagleBoardJTAG](https://elinux.org/BeagleBoardJTAG)
+* [beaglebone_samples](https://github.com/dwelch67/beaglebone_samples)
+* [FreeRTOS for BeagleBone Black](https://github.com/henfos/BBBFreeRTOS)
 
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
